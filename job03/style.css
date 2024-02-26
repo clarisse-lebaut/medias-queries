@@ -1,0 +1,73 @@
+/* --- taille adaptative 1 */
+
+@media screen and (min-width : 1600px){
+
+    .sections{
+        width: 70%;
+        height: 70%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 10px 10px;
+        }
+
+    .section1,
+    .section2,
+    .section3,
+    .section4{
+        background-color: #88c1d0;
+        width: 200px;
+        height: 200px;
+        }
+}
+
+
+
+/* --- taille adaptative 2 */
+
+@media screen and (min-width : 768px) and (max-width : 1599px){
+
+    .sections{
+        width: 70%;
+        height: 70%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2 1fr);
+        grid-gap: 10px 10px;
+        }
+    
+    .section1,
+    .section2,
+    .section3,
+    .section4{
+        background-color: #88c1d0;
+        width: 200px;
+        height: 200px;
+        }
+
+}
+
+
+
+/* --- taille adaptative 3 */
+
+@media screen and (min-width : 0px) and (max-width : 767px){
+    
+    .sections{
+        width: 70%;
+        height: 70%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px 10px;
+        }
+
+    .section1,
+    .section2,
+    .section3,
+    .section4{
+            background-color: #88c1d0;
+            width: 200px;
+            height: 200px;
+        }
+}
